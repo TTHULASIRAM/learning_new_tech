@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "vpc_name" {
-  default = "vpc-apsoth-test-project"
+  default = "vpc-apsoth-dev-project1"
 }
 
 variable "vpc_cidr" {
