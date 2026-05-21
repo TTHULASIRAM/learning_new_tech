@@ -53,6 +53,7 @@ resource "aws_subnet" "public_az1" {
 
   tags = {
     Name = "public-az1"
+    Environment = "DEV"
   }
 }
 
@@ -64,6 +65,7 @@ resource "aws_subnet" "public_az2" {
 
   tags = {
     Name = "public-az2"
+     Environment = "DEV"
   }
 }
 
@@ -78,6 +80,7 @@ resource "aws_subnet" "web_az1" {
 
   tags = {
     Name = "web-az1"
+    Environment = "DEV"
   }
 }
 
@@ -88,6 +91,7 @@ resource "aws_subnet" "web_az2" {
 
   tags = {
     Name = "web-az2"
+    Environment = "DEV"
   }
 }
 
@@ -102,6 +106,7 @@ resource "aws_subnet" "app_az1" {
 
   tags = {
     Name = "app-az1"
+    Environment = "DEV"
   }
 }
 
@@ -112,6 +117,7 @@ resource "aws_subnet" "app_az2" {
 
   tags = {
     Name = "app-az2"
+    Environment = "DEV"
   }
 }
 
@@ -126,6 +132,7 @@ resource "aws_subnet" "db_az1" {
 
   tags = {
     Name = "db-az1"
+    Environment = "DEV"
   }
 }
 
@@ -136,6 +143,7 @@ resource "aws_subnet" "db_az2" {
 
   tags = {
     Name = "db-az2"
+    Environment = "DEV"
   }
 }
 
@@ -153,6 +161,7 @@ resource "aws_route_table" "public_rt" {
 
   tags = {
     Name = "public-rt"
+    Environment = "DEV"
   }
 }
 
@@ -179,6 +188,7 @@ resource "aws_route_table" "private_rt_az1" {
 
   tags = {
     Name = "private-rt-az1"
+    Environment = "DEV"
   }
 }
 
@@ -191,6 +201,7 @@ resource "aws_route_table" "private_rt_az2" {
 
   tags = {
     Name = "private-rt-az2"
+    Environment = "DEV"
   }
 }
 
